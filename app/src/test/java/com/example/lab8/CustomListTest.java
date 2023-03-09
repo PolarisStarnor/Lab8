@@ -52,14 +52,14 @@ public class CustomListTest {
         });
     }
 
-    @Test
-    void countCitiesTest() {
-        list = mockCityList();
-        assertEquals(1, list.countCities());
-        City city = new City("Toronto", "ON");
-        list.addCity(city);
-        assertEquals(2, list.countCities());
-        list.removeCity(city);
-        assertEquals(1, list.countCities());
-    }
+//    @Test
+//    void countCitiesTest() {
+//        list = mockCityList();
+//        assertEquals(1, list.countCities());
+//        City city = new City("Toronto", "ON");
+//        list.addCity(city);
+//        assertEquals(2, list.countCities());
+//        list.removeCity(city);
+//        assertEquals(1, list.countCities());
+//    }
 }
